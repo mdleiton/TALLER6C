@@ -6,14 +6,18 @@ void funcion3(int *a1,int *a2);
 
 int main(int argc, char *argv[] ){
 	//prueba funcion1
+	printf("prueba funcion1");
 	char *fecha ="2017-06-06";
 	funcion1(fecha);
+
 	//prueba funcion2
+	printf("prueba funcion2");
 	int array[10]={0,2,3,5,5,6,7,8,9,0}; //Declarar e inicializar un array.
 	int *puntero=funcion2(array,10,2);
 	printf("Dirección del elemento %p\n", puntero);
 
 	//prueba funcion3
+	printf("prueba funcion3");
 	int a = 2;
 	int b = 3;
 	funcion3(&a, &b);
